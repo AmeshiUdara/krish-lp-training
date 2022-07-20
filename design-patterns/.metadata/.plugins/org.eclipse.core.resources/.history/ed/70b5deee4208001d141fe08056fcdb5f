@@ -1,0 +1,22 @@
+package drinksFactory;
+
+public abstract class Drinks{
+
+	protected void powerOn(){
+		System.out.println("Powering On Machine.......");
+	}
+	
+	protected void powerOff(){
+		System.out.println("Powering Off Machine.......");
+	}
+	
+	protected abstract void drinksDetails(String data);
+	
+	public void operateMachine(String data){
+		powerOn();
+		drinksDetails(data);
+		powerOff();
+		System.out.println("\n");
+	}
+	
+}

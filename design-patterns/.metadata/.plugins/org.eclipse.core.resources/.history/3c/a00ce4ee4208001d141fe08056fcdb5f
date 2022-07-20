@@ -1,0 +1,31 @@
+package drinksFactory;
+
+/**
+ * @author Ameshi
+ *
+ */
+import drinks.Drinks
+public class DrinksFactory {
+	public static Drinks getDrinks(DrinksType DrinksType) {
+
+		switch (DrinksType) {
+
+		case NESCAFE:
+			return new Nescafe();
+
+		case NESTEA:
+			return new NesTea();
+
+		case COCACOLA:
+			return new CocaCola();
+
+		case PEPSI:
+			return new Pepsi();
+
+		default:
+			return null;
+		}
+
+	}
+
+}

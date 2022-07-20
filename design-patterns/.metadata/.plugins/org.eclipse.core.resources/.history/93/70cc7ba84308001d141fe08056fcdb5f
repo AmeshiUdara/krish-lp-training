@@ -1,0 +1,20 @@
+package drinksFactory;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Drinks Nescafe = DrinksFactory.getDrinks(DrinksType.NESCAFE);
+		Nescafe.operateDrinks("Niranka");
+
+		Drinks NesTea = DrinksFactory.getDrinks(DrinksType.NESTEA);
+		NesTea.operateDrinks("Ranmal");
+
+		Drinks CocaCola = DrinksFactory.getDrinks(DrinksType.COCACOLA);
+		CocaCola.operateDrinks("Bambaragama");
+
+		Drinks Pepsi = DrinksFactory.getDrinks(DrinksType.PEPSI);
+		Pepsi.operateDrinks("Dewage");
+
+	}
+
+}

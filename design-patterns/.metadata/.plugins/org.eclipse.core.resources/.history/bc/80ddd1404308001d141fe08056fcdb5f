@@ -1,0 +1,9 @@
+package drinksFactory;
+
+public class NescafeType {
+	INKJET,
+	LASER,
+	LED,
+	THREE_D,
+
+}

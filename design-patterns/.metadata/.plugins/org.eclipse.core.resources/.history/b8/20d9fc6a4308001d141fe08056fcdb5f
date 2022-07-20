@@ -1,0 +1,9 @@
+package drinksFactory;
+
+public class DrinksType {
+	INKJET,
+	LASER,
+	LED,
+	THREE_D,
+
+}
