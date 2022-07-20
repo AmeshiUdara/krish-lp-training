@@ -1,9 +1,0 @@
-package drinksFactory;
-
-public class CocaCola extends Drinks{
-	@Override
-	protected void drinksDetails(String data){
-		System.out.println("Please Press the Start Button. You Can have a" + data );
-	} 
-
-}
